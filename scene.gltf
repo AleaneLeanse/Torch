@@ -1,0 +1,482 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6755,
+      "max": [
+        -3.5158681869506836,
+        72.982467651367188,
+        5.1864824295043945
+      ],
+      "min": [
+        -36.86688232421875,
+        -61.212154388427734,
+        -27.375696182250977
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 81060,
+      "componentType": 5126,
+      "count": 6755,
+      "max": [
+        0.99999654293060303,
+        1,
+        0.99992704391479492
+      ],
+      "min": [
+        -0.99994587898254395,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 6755,
+      "max": [
+        1,
+        1,
+        0.99999988079071045,
+        1
+      ],
+      "min": [
+        -0.99999994039535522,
+        -1,
+        -0.99999988079071045,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6755,
+      "max": [
+        0.99736142158508301,
+        0.99966424703598022
+      ],
+      "min": [
+        0.0016358299180865288,
+        0.0016575396293774247
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 25707,
+      "max": [
+        6754
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 162120,
+      "componentType": 5126,
+      "count": 121,
+      "max": [
+        -67.588768005371094,
+        69.388519287109375,
+        -103.76624298095703
+      ],
+      "min": [
+        -96.738983154296875,
+        59.805992126464844,
+        -132.91645812988281
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 163572,
+      "componentType": 5126,
+      "count": 121,
+      "max": [
+        0.68381565809249878,
+        1,
+        0.6838153600692749
+      ],
+      "min": [
+        -0.68381547927856445,
+        0.72877335548400879,
+        -0.68381571769714355
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 108080,
+      "componentType": 5126,
+      "count": 121,
+      "max": [
+        0.50000560283660889,
+        0.68475431203842163,
+        0.86603802442550659,
+        -1
+      ],
+      "min": [
+        0.36438533663749695,
+        -0.68475502729415894,
+        0.63113671541213989,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 54040,
+      "componentType": 5126,
+      "count": 121,
+      "max": [
+        0.97544258832931519,
+        0.96366065740585327
+      ],
+      "min": [
+        0.85881954431533813,
+        0.84703737497329712
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 102828,
+      "componentType": 5125,
+      "count": 600,
+      "max": [
+        120
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Oliver D (https://sketchfab.com/OliverD)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/78a40e36444b4ae79814a9965cbd0c1b",
+      "title": "Torch"
+    },
+    "generator": "Sketchfab-3.19.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 105228,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 55008,
+      "byteOffset": 105228,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 165024,
+      "byteOffset": 160236,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 110016,
+      "byteOffset": 325260,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 435276,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "09_-_Default_metallicRoughness.png"
+    },
+    {
+      "uri": "09_-_Default_normal.png"
+    },
+    {
+      "uri": "09_-_Default_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "09_-_Default",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 0,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "TorchLP002_09 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object001_09 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "a4600125b53d4fa294f605f0dd165f5f.fbx"
+    },
+    {
+      "children": [
+        4,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.49999995856927726,
+        -0.8660254277044761,
+        -5.5511151231257827e-17,
+        0,
+        5.5511151231257827e-17,
+        2.2204460492503131e-16,
+        -0.99999999999999978,
+        0,
+        0.8660254277044761,
+        0.49999995856927709,
+        2.2204460492503131e-16,
+        0,
+        -302.51583862304688,
+        11.9246826171875,
+        7.3087158203125,
+        1
+      ],
+      "name": "TorchLP002"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1,
+        0,
+        -0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        20.363954544067383,
+        -2.8465194702148438,
+        11.907146453857422,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 0,
+      "name": "TorchLP002_09 - Default_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.49999995856927726,
+        -0.8660254277044761,
+        -5.5511151231257827e-17,
+        0,
+        5.5511151231257827e-17,
+        2.2204460492503131e-16,
+        -0.99999999999999978,
+        0,
+        0.8660254277044761,
+        0.49999995856927709,
+        2.2204460492503131e-16,
+        0,
+        -301.67556762695312,
+        12.162564277648926,
+        -55.848968505859375,
+        1
+      ],
+      "name": "Object001"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1,
+        0,
+        -0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        82.163894653320312,
+        -64.597251892089844,
+        118.34136962890625,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": "Object001_09 - Default_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
